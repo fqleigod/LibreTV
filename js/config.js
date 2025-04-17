@@ -81,6 +81,14 @@ const API_SITES = {
         api: 'https://cj.rycjapi.com',
         name: '如意资源',
     },
+    yinghua: {
+        api: 'https://m3u8.apiyhzy.com',
+        name: '樱花🌸',
+    },
+    hongniu: {
+        api: 'https://www.hongniuzy2.com',
+        name: '红牛资源 ',
+    },
     jkun: {
         api: 'https://jkunzyapi.com',
         name: 'jkun资源',
@@ -116,11 +124,6 @@ const API_SITES = {
         name: '黄色仓库',
         adult: true,
         detail: 'https://hsckzy.vip' // 添加detail URL以便特殊处理
-    },
-     yinghua: {
-        api: 'https://m3u8.apiyhzy.com',
-        name: '樱花🌸',
-        adult: true,
     },
     guangsu: {
         api: 'https://api.guangsuapi.com',
