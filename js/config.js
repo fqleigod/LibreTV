@@ -116,7 +116,22 @@ const API_SITES = {
         name: '黄色仓库',
         adult: true,
         detail: 'https://hsckzy.vip' // 添加detail URL以便特殊处理
-    }
+    },
+     yinghua: {
+        api: 'https://m3u8.apiyhzy.com',
+        name: '樱花🌸',
+        adult: true,
+    },
+    guangsu: {
+        api: 'https://api.guangsuapi.com',
+        name: '光速',
+        adult: true,
+    },
+    xxibao: {
+        api: 'https://www.xxibaozyw.com',
+        name: 'X细胞',
+        adult: true,
+    },
     // 您可以按需添加更多源
 };
 
