@@ -115,17 +115,17 @@ const API_SITES = {
         adult: true
     },
     jkun: {
-         api: 'https://jkunzyapi.com',
+         api: 'https://jkunzyapi.com/api.php/provide/vod',
          name: 'jkun资源',
          adult: true
     },
     bwzy: {
-         api: 'https:api.bwzym3u8.com',
+         api: ' https://api.bwzym3u8.com/api.php/provide/vod',
          name: '百万资源',
          adult: true
     },
      souav: {
-         api: 'https:api.souavzy.vip',
+         api: 'https://api.souavzy.vip/api.php/provide/vod',
          name: 'souav资源',
          adult: true
     },
@@ -140,17 +140,26 @@ const API_SITES = {
          adult: true
     },
      huangcang: {
-         api: 'https:hsckzy.vip',
+         api: 'https://hsckzy.vip/api.php/provide/vod',
          name: '黄色仓库',
          adult: true,
          detail: 'https:hsckzy.vip'
      },
      yutu: {
-         api: 'https:yutuzy10.com',
+         api: 'https://apiyutu.com/api.php/providedao/vod',
          name: '玉兔资源',
          adult: true
      },
-
+    guangsu: {
+        api: 'https://api.guangsuapi.com',
+        name: '光速',
+        adult: true,
+    },
+    xxibao: {
+        api: 'https://www.xxibaozyw.com',
+        name: 'X细胞',
+        adult: true,
+    },
     // 下面是资源失效率高的API源，不建议使用
     // subo: {
     //     api: 'https://subocaiji.com/api.php/provide/vod',
