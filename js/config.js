@@ -114,9 +114,19 @@ const API_SITES = {
         api: 'https://cj.lziapi.com/api.php/provide/vod/',
         name: '量子资源站'
     },
-    testSource: {
-        api: 'https://www.example.com/api.php/provide/vod',
-        name: '空内容测试源',
+    xibao: {
+        api: 'https://www.xxibaozyw.com/api.php/provide/vod',
+        name: '细胞网',
+        adult: true
+    },
+    xiaoji: {
+        api: 'https://api.xiaojizy.live/provide/vod',
+        name: '小鸡',
+        adult: true
+    },
+    guangsu: {
+        api: 'https://api.guangsuapi.com/api.php/provide/vod/',
+        name: '光速',
         adult: true
     },
 };
